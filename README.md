@@ -14,6 +14,13 @@ The internationalized domain name (IDN) homograph attack is a way a malicious pa
 py rbUrl.py
 ```
 
+if there's error , u must install colorama first with this command
+1. make sure u have add pip to environment variables
+2. run this command 
+```bash
+pip install colorama
+```
+
 # Let me explain
 For the example : <br>
 human eyes see all URLs are the same, nothing suspicious or strage<br>
