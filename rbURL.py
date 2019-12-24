@@ -339,7 +339,7 @@ def menu():
         exit()
 
     else:
-        print(Fore.RED+'Menu tidak ada ! silahkan pilih lagi...')
+        print(Fore.RED+'Out of range , Try Again...')
         sleep(1)
         main()
 
