@@ -15,7 +15,7 @@ py rbUrl.py
 ```
 
 # Let me explain
-For the example :
+For the example : <br>
 human eyes see all URLs are the same, nothing suspicious or strage<br>
 <b>But not with the computer</b><br>
 exaple , human eyes see apple.com just like normal<br>
