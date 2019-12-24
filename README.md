@@ -1,5 +1,8 @@
 # rbURL - HomographAttack
 <center><img src="screenshoot/logo.png" width="720px" /></center><br>
+
+<h2><b>REMEMBER , THIS IS FOR EDUCATIONAL PURPOSES ONLY !</b></h2><br>
+
 The internationalized domain name (IDN) homograph attack is a way a malicious party may deceive computer users about what remote system they are communicating with, by exploiting the fact that many different characters look alike (i.e., they are homographs, hence the term for the attack, although technically homoglyph is the more accurate term for different characters that look alike).
 
 # REQUIREMENT
@@ -24,7 +27,6 @@ but if you type 'apple.com' with 'a' letter is change to Cyrillic character, it 
 That mean , you can buy that domain and <b>you can do something crazy like phising with another level</b><br>
  
 in this case I'll use my tools to perform this attack and the target is apple.com<br>
-<b>REMEMBER , THIS IS FOR EDUCATIONAL PURPOSES ONLY !</b><br>
 
 perform attack : <br>
 <img src="screenshoot/test.png" width="600px" /><br><br>
