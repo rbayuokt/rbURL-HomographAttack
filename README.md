@@ -25,7 +25,7 @@ pip install colorama
 For the example : <br>
 human eyes see all URLs are the same, nothing suspicious or strage<br>
 <b>But not with the computer</b><br>
-exaple , human eyes see apple.com just like normal<br>
+example , human eyes see apple.com just like normal<br>
 <b>But computer see there is a Cyrillic character inside 'apple' in 'a' letter<br>
 if you type apple.com in browser , there is nothing happened , it's an official web of apple<br>
 but if you type 'apple.com' with 'a' letter is change to Cyrillic character, it will shock you<br>
