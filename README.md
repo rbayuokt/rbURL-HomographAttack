@@ -1,5 +1,8 @@
 # rbURL - HomographAttack
 <center><img src="screenshoot/logo.png" width="720px" /></center><br>
+
+<h2><b>REMEMBER , THIS IS FOR EDUCATIONAL PURPOSES ONLY !</b></h2><br>
+
 The internationalized domain name (IDN) homograph attack is a way a malicious party may deceive computer users about what remote system they are communicating with, by exploiting the fact that many different characters look alike (i.e., they are homographs, hence the term for the attack, although technically homoglyph is the more accurate term for different characters that look alike).
 
 # REQUIREMENT
@@ -11,11 +14,18 @@ The internationalized domain name (IDN) homograph attack is a way a malicious pa
 py rbUrl.py
 ```
 
+if there's error , u must install colorama first with this command
+1. make sure u have add pip to environment variables
+2. run this command 
+```bash
+pip install colorama
+```
+
 # Let me explain
-For the example :
+For the example : <br>
 human eyes see all URLs are the same, nothing suspicious or strage<br>
 <b>But not with the computer</b><br>
-exaple , human eyes see apple.com just like normal<br>
+example , human eyes see apple.com just like normal<br>
 <b>But computer see there is a Cyrillic character inside 'apple' in 'a' letter<br>
 if you type apple.com in browser , there is nothing happened , it's an official web of apple<br>
 but if you type 'apple.com' with 'a' letter is change to Cyrillic character, it will shock you<br>
@@ -24,7 +34,6 @@ but if you type 'apple.com' with 'a' letter is change to Cyrillic character, it 
 That mean , you can buy that domain and <b>you can do something crazy like phising with another level</b><br>
  
 in this case I'll use my tools to perform this attack and the target is apple.com<br>
-<b>REMEMBER , THIS IS FOR EDUCATIONAL PURPOSES ONLY !</b><br>
 
 perform attack : <br>
 <img src="screenshoot/test.png" width="600px" /><br><br>
