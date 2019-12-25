@@ -23,7 +23,7 @@ pip install colorama
 
 # Let me explain
 For the example : <br>
-human eyes see all URLs are the same, nothing suspicious or strage<br>
+human eyes see all URLs are the same, nothing suspicious or strange<br>
 <b>But not with the computer</b><br>
 example , human eyes see apple.com just like normal<br>
 <b>But computer see there is a Cyrillic character inside 'apple' in 'a' letter<br>
