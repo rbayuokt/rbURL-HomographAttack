@@ -55,3 +55,8 @@ Result : <br>
 <img src="screenshoot/result.png" width="600px" /><br><br>
 
 made with :heart: in Cimahi by [@rbayuokt](https://www.instagram.com/rbayuokt/) :thumbsup:
+
+Module added for availability:
+
+![](2023-02-10-06-22-59.png)
+

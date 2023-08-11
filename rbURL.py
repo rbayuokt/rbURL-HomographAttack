@@ -12,6 +12,8 @@ from os import system
 from time import sleep
 from colorama import init, Fore, Back, Style
 
+from domain_checker import check_domain
+
 init()
 
 # Cryrillic character look alike to latin character
@@ -257,6 +259,7 @@ def attackGreek(nama,domain):
         print(Back.RED+'Sorry... this url not available in Greek:('+Style.RESET_ALL)
         print("\n")
 
+
 # this code used for making new url
 # with Cyrillic or Greek character included
 # so u can perform homograph attack if the url is available
@@ -272,6 +275,7 @@ def makeUrl(char,nama,unicode,desc,domain):
     print(Fore.GREEN+"============================================="+Style.RESET_ALL)
     print("{0}Change the letter {1} with {2} {3} {4}".format(Fore.YELLOW , char , desc , unicode , Style.RESET_ALL) )
     print("{0}► new URL : {1} {2}".format(Fore.GREEN , namaBaru+domain , Style.RESET_ALL ))
+    print("{0}► availability : {1} {2}".format(Fore.GREEN , check_domain(namaBaru+domain) , Style.RESET_ALL ))
     print(Fore.GREEN+"=============================================\n"+Style.RESET_ALL)
 
 # show all Cyrillic character
